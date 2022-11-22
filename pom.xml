@@ -31,20 +31,20 @@
    <!-- ********************************************** -->
 
    <scm>
-      <connection>scm:git:https://github.com/bernardo-mg/coconut.git</connection>
-      <developerConnection>scm:git:https://github.com/bernardo-mg/coconut.git</developerConnection>
+      <connection>scm:git:https://github.com/AFarmerLearnToCode/coconut.git</connection>
+      <developerConnection>scm:git:https://github.com/AFarmerLearnToCode/coconut.git</developerConnection>
       <tag>head</tag>
-      <url>https://www.github.com/bernardo-mg/coconut</url>
+      <url>https://www.github.com/AFarmerLearnToCode/coconut</url>
    </scm>
 
    <issueManagement>
       <system>GitHub</system>
-      <url>https://www.github.com/bernardo-mg/coconut/issues</url>
+      <url>https://www.github.com/AFarmerLearnToCode/coconut/issues</url>
    </issueManagement>
 
    <ciManagement>
       <system>Github</system>
-      <url>https://www.github.com/bernardo-mg/coconut/actions</url>
+      <url>https://www.github.com/AFarmerLearnToCode/coconut/actions</url>
       <notifiers />
    </ciManagement>
 
@@ -81,7 +81,7 @@
                <!-- Github repository -->
                <id>github</id>
                <name>GitHub Packages</name>
-               <url>https://maven.pkg.github.com/bernardo-mg/coconut</url>
+               <url>https://maven.pkg.github.com/AFarmerLearnToCode/coconut</url>
             </repository>
          </distributionManagement>
       </profile>
@@ -160,7 +160,7 @@
       <!-- ============================================== -->
       <site.skin.version>2.2.7</site.skin.version>
       <mavenURL>https://mvnrepository.com/artifact/${project.groupId}/${project.artifactId}</mavenURL>
-      <githubArtifactURL><![CDATA[https://github.com/bernardo-mg?tab=packages&amp;repo_name={project.artifactId}]]></githubArtifactURL>
+      <githubArtifactURL><![CDATA[https://github.com/AFarmerLearnToCode?tab=packages&amp;repo_name={project.artifactId}]]></githubArtifactURL>
    </properties>
 
    <!-- ********************************************** -->
